@@ -1,24 +1,84 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountain.eg</title>
+  <meta charset="UTF-8">
+  <title>local unamed brand..</title> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/master.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      border-bottom: 1px solid #ccc;
+    }
+    .left, .right {
+      display: flex;
+      align-items: center;
+    }
+    .left input {
+      padding: 8px;
+      padding-left: 30px;
+      border: none;
+      border-bottom: 1px solid #000;
+      font-size: 14px;
+    }
+    .left .search-icon {
+      position: absolute;
+      margin-left: 10px;
+    }
+    .center {
+      text-align: center;
+    }
+    .center img {
+      height: 40px;
+    }
+    .nav-links {
+      margin-left: 20px;
+      font-size: 14px;
+    }
+    .nav-links a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #000;
+    }
+    .right .icon {
+      margin-left: 15px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .relative {
+      position: relative;
+    }
+  </style>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-<link rel="stylesheet" href="css/master.css">
-
 <body>
-    <header>
-        <div class="top_header"> 
-            <div calss="container">
-                <a href="index.html" class="logo">Mountain.eg</a>
-            </div>
-        </div>
-    </header>
-    
+  <header class="header">
+    <div class="left relative">
+      <i class="fas fa-search search-icon"></i>
+      <input type="text" placeholder="What are you looking for?" />
+    </div>
+    <div class="center">
+      <div class="nav-links">
+        <a href="#">Create An Account</a>
+        <a href="#">Sign In</a>
+        <a href="#">العربية</a>
+      </div>
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg" alt="H&M Logo"> -->
+    </div>
+    <div class="right">
+      <i class="far fa-heart icon"></i>
+      <i class="fas fa-shopping-bag icon"></i>
+    </div>
+  </header>
 </body>
-
 </html>
