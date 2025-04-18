@@ -1,0 +1,115 @@
+/* ===================the navbar css ============================*/
+ .header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 30px;
+   border-bottom: 1px solid #ccc;
+ }
+ .left, .right {
+   display: flex;
+   align-items: center;
+ }
+ .left input {
+   padding: 9px;
+   padding-left: 40px;
+   border: none;
+   border-bottom: 1px solid #000;
+   font-size: 14px;
+ }
+ .left .search-icon {
+   position: absolute;
+   margin-left: 10px;
+ }
+ .center {
+   text-align: center;
+ }
+ .center img {
+   height: 40px;
+ }
+ .nav-links {
+   margin-left: 400px;
+   font-size: 14px;
+ }
+ .nav-links a {
+   margin-left: 15px;
+   text-decoration: none;
+   color: #000;
+ }
+ .right .icon {
+   margin-left: 25px;
+   font-size: 20px;
+   cursor: pointer;
+ }
+ .relative {
+   position: relative;
+ }
+
+ .logo {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+ 
+
+ /* ============================the body css==================== */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #fff;
+
+
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+  }
+  
+  .product-card {
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .category {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+ 
+  
+  
