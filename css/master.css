@@ -52,7 +52,7 @@ header {
 
 .logo {
     text-decoration: none;
-    color: black;
+    color: #344f82;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -61,7 +61,7 @@ header {
 
 .navigation a {
     text-align: center;
-    color: blue;
+    color: #4a7eb5;
     text-decoration: wavy;
     font-weight: 550;
     font: size 20px;
@@ -77,7 +77,7 @@ header {
 }
 
 .navigation a:hover {
-    color: blueviolet;
+    color: #344f82;
 }
 
 section {
@@ -89,7 +89,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/shirt-mockup-concept-with-plain-clothing.jpg) no-repeat;
+    background: url(images/l.logo2.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -123,7 +123,7 @@ section {
 }
 
 .main-btn:hover {
-    background-color: beige;
+    background-color: #bfd0e3;
     transform: scale(1.1);
 }
 
@@ -136,7 +136,7 @@ section {
 .createTEXT-signup-page {
     font-size: 35px;
     padding-right: 20px;
-    color: black;
+    color: #4a7eb5;
     position: relative;
     padding-left: 40%;
 }
@@ -145,7 +145,7 @@ section {
     font-size: 40px;
     font: 50px;
     font-family: Fantasy;
-    color: black;
+    color: #344f82;
 }
 
 .form-group {
@@ -175,7 +175,7 @@ section {
 
 .submit-button input {
     padding: 10px 20px;
-    background-color: moccasin;
+    background-color: #bfd0e3;
     border: none;
     border-radius: 4px;
     cursor: pointer;

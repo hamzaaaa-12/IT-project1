@@ -16,22 +16,31 @@
    border-bottom: 1px solid #ccc;
    margin: 0;
  }
- .left, .right {
+ .left , .right {
    display: flex;
    align-items: center;
+   color: #4a7eb5;
+ }
+ .left , .right:hover{
+  color: #344f82;
  }
  .left input {
    padding: 9px;
    padding-left: 40px;
    border: none;
-   border-bottom: 1px solid #000;
+   border-bottom: 1px solid #4a7eb5;
    font-size: 14px;
- }
+   color: #000;
+  }
+
  .left .search-icon {
    position: absolute;
    margin-left: 10px;
    margin: -10px;
+   color: #4a7eb5;
  }
+ .left .search-icon:hover{
+  color: #344f82;}
  .center {
    text-align: center;
  }
@@ -58,7 +67,7 @@
 
  .logo {
   text-decoration: none;
-  color: black;
+  color: #344f82;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.5em;
