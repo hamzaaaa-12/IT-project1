@@ -1,4 +1,4 @@
-<!-- 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +7,8 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="css/master.css">
+<!--
+
 
   <style>
     body {
@@ -27,8 +29,8 @@
     .left input {
       padding: 8px;
       padding-left: 30px;
-      border: none;
-      border-bottom: 1px solid #000;
+      border: 1px solid black;
+      border-bottom: 1px solid black;
       font-size: 14px;
     }
     .left .search-icon {
@@ -59,7 +61,7 @@
       position: relative;
     }
   </style>
-  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"> -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
   <header class="header">
@@ -69,16 +71,47 @@
     </div>
     <div class="center">
       <div class="nav-links">
-        <a href="#">Create An Account</a>
-        <a href="#">Sign In</a>
-        <a href="#">العربية</a>
+       <a href="#">Create An Account</a>
+        <a href="#">Sign In</a> 
       </div>
       
     </div>
     <div class="right">
-      <i class="far fa-heart icon"></i>
       <i class="fas fa-shopping-bag icon"></i>
     </div>
   </header>
+-->
 </body>
-</html> -->
+
+
+<body>
+  <section class="signup-main">
+  <a id="SignupPAGE-logo" href="homePage.html" class="logo">141</a>
+  <h1 class="createTEXT-signup-page">Create an account</h1>
+<div>
+  <form action="/submit-form" method="post">
+    <div class="form-group">
+        <label for="Full name">Name</label>
+        <input class="signup-page-boxes" placeholder="Full name" type="text" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input class="signup-page-boxes" placeholder="Example@gmail.com" type="email" required>
+    </div>
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <input class="signup-page-boxes" placeholder="Eg:ashb34j8k" type="password" required>
+    </div>
+    <div class="form-group">
+        <label for="Password">Re-enter Password</label>
+        <input class="signup-page-boxes" type="password" required>
+    </div>
+    <div class="submit-button">
+        <input type="submit"value="Submit">
+    </div>
+</form>
+</div>
+  </section>
+</body>
+
+</html>
