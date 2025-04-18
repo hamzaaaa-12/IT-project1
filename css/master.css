@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
 }
 
 header {
@@ -18,29 +17,36 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
-
 }
-.search{
+
+.search {
     width: 200px;
-
 }
-.search input{
+.signup-page-boxes {
+    flex: none;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search input {
     transition: width 0.4s ease-in-out;
     width: 10%;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('/computer-icons-desktop-wallpaper-web-search-engine-wordpress-com-clip-art-png-search-download-icon-fc5c6aef7fd1319a8263dac456eb5c4a.png');
-  background-position: 10px 10px; 
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('/computer-icons-desktop-wallpaper-web-search-engine-wordpress-com-clip-art-png-search-download-icon-fc5c6aef7fd1319a8263dac456eb5c4a.png');
+    background-position: 10px 10px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
 }
-.search input:focus{
-    width: 100%;
 
+.search input:focus {
+    width: 100%;
 }
 
 .logo {
@@ -49,56 +55,39 @@ header {
     text-transform: uppercase;
     font-weight: 1000;
     font-size: 25px;
-
 }
-.navigation a[href="index.html"]{
-color: black;
-font-size: large;
-border:2px outset  black ;
-padding: 5px;
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
-}
-.navigation a[href="index.html"]{
+.navigation a[href="index.html"] {
     color: black;
     font-size: large;
-    border:2px outset  black ;
+    border: 2px outset black;
     padding: 5px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    
-    
-    
-    }
-
-
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
 .navigation a {
-    text-align: center;   
+    text-align: center;
     color: burlywood;
     text-decoration: wavy;
     font-weight: 550;
-    font: size 20px;;
+    font: size 20px;
     padding: 20px;
-
-
 }
+
 .navigation a[href="#create"]:hover {
     color: gray;
-
 }
+
 .navigation a[href="#sign in"]:hover {
     color: gray;
-
 }
 
 .navigation a:hover {
     color: blueviolet;
-
 }
 
 section {
     padding: 100px 200px;
-
 }
 
 .main {
@@ -110,12 +99,10 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
-
 }
-.signup-main{
-    background:url(/wallpaperflare.com_wallpaper\ \(1\).jpg) ;
 
+.signup-main {
+    background: url(/wallpaperflare.com_wallpaper\ \(1\).jpg);
     width: 100%;
     min-height: 100vh;
     align-items: center;
@@ -125,7 +112,6 @@ section {
     color: aliceblue;
     font-size: 1.4em;
     font-weight: 500;
-
 }
 
 .main-btn {
@@ -152,41 +138,61 @@ section {
     font-size: 1.7em;
     padding-right: 30px;
 }
-.createTEXT-signup-page{
+
+.createTEXT-signup-page {
     font-size: 35px;
-    padding-right:20px;
+    padding-right: 20px;
     color: black;
-    position:relative;
+    position: relative;
     padding-left: 40%;
 }
-#SignupPAGE-logo{
-    font-size: 40px;    
-    font: 50px;font-family:Fantasy;
+
+#SignupPAGE-logo {
+    font-size: 40px;
+    font: 50px;
+    font-family: Fantasy;
     color: black;
 }
-.signup-page-boxes{
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 150px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.signup-page-boxes {
     flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    width: 20%;
-    margin: 15px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-button input {
     padding: 10px 20px;
-    box-sizing: border-box;
-    border: 3px black solid;
-    background-color: beige;
-}
-.signup-page-boxes:focus{
-    background-color:moccasin;
+    background-color: moccasin;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-
-
-.title{
+.title {
     display: flex;
     justify-content: center;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
-
 }
 
 .content {
@@ -205,32 +211,78 @@ section {
     flex-wrap: wrap;
 }
 
-/*==============
-===============*/
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  ::-webkit-scrollbar-track {
-   
-    background: #bfd0e3; 
-  }
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-track {
+    background: #bfd0e3;
+}
+
+::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background:  #4a7eb5; 
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background: #344f82; 
-  }
+    background: #4a7eb5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #344f82;
+}
+
 ::-webkit-scrollbar-button {
-    background-color: #bfd0e3;;
+    background-color: #bfd0e3;
     background-size: 10px 10px;
     height: 10px;
 }
+
 ::-webkit-scrollbar-button:end:increment {
     background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQwNC4zMDggNDA0LjMwOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDA0LjMwOCA0MDQuMzA5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTAsMTAxLjA4aDQwNC4zMDhMMjAyLjE1MSwzMDMuMjI5TDAsMTAxLjA4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=);
 }
 
-
 ::-webkit-scrollbar-button:start:decrement {
-   background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDI1NSAyNTUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI1NSAyNTU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0iYXJyb3ctZHJvcC11cCI+CgkJPHBvbHlnb24gcG9pbnRzPSIwLDE5MS4yNSAxMjcuNSw2My43NSAyNTUsMTkxLjI1ICAgIiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==)
+    background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDI1NSAyNTUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI1NSAyNTU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0iYXJyb3ctZHJvcC11cCI+CgkJPHBvbHlnb24gcG9pbnRzPSIwLDE5MS4yNSAxMjcuNSw2My43NSAyNTUsMTkxLjI1ICAgIiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #bfd0e3;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4a7eb5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #203954;
+}
+
+.shirt-img {
+    width: 200px;
+    height: 200px;
+}
+
+.pants-img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
 }
