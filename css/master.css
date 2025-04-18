@@ -126,3 +126,21 @@ section {
 .card {
 
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #bfd0e3; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4a7eb5 ; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #203954; 
+  }
