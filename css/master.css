@@ -64,7 +64,7 @@ header {
     color: #4a7eb5;
     text-decoration: wavy;
     font-weight: 550;
-    font: size 20px;
+    font-size: 20px;
     padding: 20px;
 }
 
@@ -140,6 +140,7 @@ section {
     position: relative;
     padding-left: 40%;
 }
+
 .createTEXT-signin-page {
     font-size: 35px;
     padding-right: 20px;
@@ -281,56 +282,70 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-footer .fot{
+
+footer .fot {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
 }
-footer .logof{
+
+footer .logof {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-footer h4{
+
+footer h4 {
     font-size: 14px;
     padding-bottom: 20px;
 }
-footer p{
+
+footer p {
     font-size: 13px;
     margin: 0 0 8px 0;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     font-size: 13px;
     margin-bottom: 10px;
     color: black;
 }
-footer .fol{
+
+footer .fol {
     margin-top: 20px;
+
 }
-footer .fol i{
+
+footer .fol i {
     padding-right: 4px;
-    color:black;
+    color: black;
     cursor: pointer;
 }
+
 footer .install .row img {
     border: 1px solid #4a7eb5;
     border-radius: 6px;
-} 
+}
+
 footer .install img {
     margin: 10px 0 15px 0;
 }
-footer .fol i:hover, footer a:hover {
+
+footer .fol i:hover,
+footer a:hover {
     color: #4a7eb5;
 }
-footer .cr{
+
+footer .cr {
     width: 100%;
     text-align: center;
 }
-   /* 
+
+/* 
 #video{
     padding-right: 0;
     width: 300px;
