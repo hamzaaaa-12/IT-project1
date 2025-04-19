@@ -332,6 +332,7 @@ footer .fol i:hover, footer a:hover {
 footer .cr{
     width: 100%;
     text-align: center;
+}
    /* <<<<<<< Updated upstream=======
 #video{
     padding-right: 0;
@@ -351,4 +352,6 @@ footer .cr{
     font-size: 50px;
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> cad453f02d5e4c128159c97bd289531ffd17a9f0
 }
