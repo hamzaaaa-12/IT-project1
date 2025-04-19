@@ -178,7 +178,7 @@ section {
 .submit-button {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .submit-button input {
@@ -276,9 +276,6 @@ section {
 }
 
 
-/*=============
- footer
-=============*/
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -333,7 +330,7 @@ footer .cr{
     width: 100%;
     text-align: center;
 }
-   /* <<<<<<< Updated upstream=======
+   /* 
 #video{
     padding-right: 0;
     width: 300px;
@@ -351,7 +348,5 @@ footer .cr{
     margin-bottom: 10px; 
     font-size: 50px;
 
->>>>>>> Stashed changes
-=======
->>>>>>> cad453f02d5e4c128159c97bd289531ffd17a9f0
+
 }
