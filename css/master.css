@@ -266,3 +266,61 @@ section {
     display: flex;
     justify-content: center;
 }
+
+/*=============
+ footer
+=============*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .fot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logof{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+  margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: black;
+}
+footer .fol{
+    margin-top: 20px;
+}
+footer .fol i{
+    padding-right: 4px;
+    color:black;
+    cursor: pointer;
+}
+footer .install .row img {
+    border: 1px solid #4a7eb5;
+    border-radius: 6px;
+} 
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+footer .fol i:hover, footer a:hover {
+    color: #4a7eb5;
+}
+footer .cr{
+    width: 100%;
+    text-align: center;
+}
