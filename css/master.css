@@ -197,7 +197,9 @@ section {
     font-weight: 800;
     margin-bottom: 30px;
 }
-
+   /*==============
+    logos 
+    ==============*/
 .content {
     display: flex;
     justify-content: center;
@@ -227,6 +229,16 @@ section {
 .card:hover {
     transform: scale(1.1);
 }
+
+    .card a{
+        text-decoration: none;
+        color: black;
+
+    }
+     .card a:hover{
+        text-decoration: none;
+        color: #4a7eb5;
+    }
 
 ::-webkit-scrollbar {
     width: 10px;
