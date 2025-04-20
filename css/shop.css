@@ -79,7 +79,7 @@
   font-size: 1.5em;
   text-align: center;
   left: 50%;
-  transform: translateX(-30%);
+  
   transition: 1.5s ease;
   
 }
@@ -120,12 +120,13 @@ body {
   
   .product-card {
     text-align: center;
+    width: 200px;
+    height: 300px;
   }
   
   .product-card img {
-    width: 50%;
-    max-width: 200px;
-    height: auto;
+    width: 150px;
+    height: 150px;
     border-radius: 8px;
   }
   
