@@ -7,9 +7,12 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+body {
+    background-color: #f4f4f4;
+}
 
 header {
-    background-color: BLACK;
+    background-color: #f4f4f4;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -223,7 +226,7 @@ section {
 }
 
 .card {
-    background-color: black;
+    background-color:white;
     width: 21.25em;
     box-shadow: 0 5px 25px white(1 1 1 / 15%);
     border-radius: 10px;
@@ -251,7 +254,7 @@ section {
 }
 
 ::-webkit-scrollbar-track {
-    background: black;
+    background: #151c1e;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -330,7 +333,7 @@ footer a {
     text-decoration: none;
     font-size: 13px;
     margin-bottom: 10px;
-    color: #EF4723;
+    color: #151c1e;
     transition: 1.5s ease;
 }
 
@@ -346,7 +349,7 @@ footer .fol i {
 }
 
 footer .install .row img {
-    border: 1px solid #EF4723;
+    border: 1px solid #151c1e;
     border-radius: 6px;
 }
 
