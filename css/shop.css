@@ -19,28 +19,28 @@
  .left , .right {
    display: flex;
    align-items: center;
-   color: #4a7eb5;
+   color: #ef4723;
  }
  .left , .right:hover{
-  color: #344f82;
+  color: #ef4723;
  }
  .left input {
    padding: 9px;
    padding-left: 40px;
    border: none;
-   border-bottom: 1px solid #4a7eb5;
+   border-bottom: 1px solid #ef4723;
    font-size: 14px;
-   color: #000;
+   color: #ef4723;
   }
 
  .left .search-icon {
    position: absolute;
    margin-left: 10px;
    margin: -10px;
-   color: #4a7eb5;
+   color: #ef4723;
  }
  .left .search-icon:hover{
-  color: #344f82;}
+  color: #ef4723;}
  .center {
    text-align: center;
  }
@@ -54,11 +54,11 @@
  .nav-links a {
    margin-left: 15px;
    text-decoration: none;
-   color: #4a7eb5;
+   color: #ef4723;
    transition: 1.5s ease;
  }
  .nav-links a:hover {
-   color: #344f82;
+   color: #ef4723;
    transform: scale(1.2);
    transition: 0.5s ease;
  }
@@ -73,7 +73,7 @@
 
  .logo {
   text-decoration: none;
-  color: #6761da;
+  color: #ef4723;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.5em;
@@ -84,7 +84,7 @@
   
 }
 .logo:hover {
-  color: #164397;
+  color: #ef4723;
   transform: scale(1.2);
   transition: 0.5s ease;
 }
@@ -100,7 +100,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 30px;
-    background-color: #fff;
+    background-color: black;
 
 
   }
@@ -133,18 +133,20 @@ body {
   .category {
     font-size: 12px;
     letter-spacing: 1px;
-    color: #888;
+    color: #ccc;
     margin-top: 10px;
   }
   
   .product-name {
     font-size: 16px;
     margin: 5px 0;
+    color: #ef4723;
   }
   
   .price {
     font-weight: bold;
     margin: 5px 0;
+    color: #ef4723;
   }
 /* ==========================animations===================== */
 .products{
@@ -162,7 +164,7 @@ display: flex;
     flex-wrap: wrap;
 }
 .product-card {
-    background-color: #fff;
+    background-color: black;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
@@ -182,20 +184,20 @@ display: flex;
 }
 
 ::-webkit-scrollbar-track {
-  background: #bfd0e3;
+  background: black;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #4a7eb5;
+  background: #ef4723;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #344f82;
+  background: #ef4723;
 }
 
 ::-webkit-scrollbar-button {
-  background-color: #bfd0e3;
+  background-color: #ef4723;
   background-size: 10px 10px;
   height: 10px;
 }
