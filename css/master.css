@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color: #0e0d0d;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -41,7 +41,7 @@ header {
     border: 2px solid #e6e0e0;
     border-radius: 4px;
     font-size: 16px;
-    background-color: #EF4723;
+    background-color: #f4512d;
     background-image: url('/computer-icons-desktop-wallpaper-web-search-engine-wordpress-com-clip-art-png-search-download-icon-fc5c6aef7fd1319a8263dac456eb5c4a.png');
     background-position: 10px 10px;
     background-size: 20px 20px;
@@ -55,7 +55,7 @@ header {
 
 .logo {
     text-decoration: none;
-    color: #EF4723;
+    color: #f97316;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -64,7 +64,7 @@ header {
 
 .navigation a {
     text-align: center;
-    color: #EF4723;
+    color: #f97316;
     text-decoration: wavy;
     font-weight: 550;
     font-size: 20px;
@@ -80,7 +80,7 @@ header {
 }
 
 .navigation a:hover {
-    color: #EF4723;
+    color: #f97316;
 }
 
 section {
@@ -106,14 +106,14 @@ section {
 }
 
 .main h2 {
-    color: #EF4723;
+    color: #f97316;
     font-size: 1.4em;
     font-weight: 500;
 }
 
 .main-btn {
     color: black;
-    background-color: #EF4723;
+    background-color: #f97316;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -126,12 +126,12 @@ section {
 }
 
 .main-btn:hover {
-    background-color: #EF4723;
+    background-color: #f97316;
     transform: scale(1.1);
 }
 
 .social-icons a {
-    color: #EF4723;
+    color: #f97316;
     font-size: 1.7em;
     padding-right: 30px;
 }
@@ -145,7 +145,7 @@ section {
 .createTEXT-signup-page {
     font-size: 35px;
     padding-right: 20px;
-    color: #EF4723;
+    color: #f97316;
     position: relative;
     padding-left: 40%;
 }
@@ -153,7 +153,7 @@ section {
 .createTEXT-signin-page {
     font-size: 35px;
     padding-right: 20px;
-    color: #EF4723;
+    color: #f97316;
     position: relative;
     padding-left: 50%;
     padding-bottom: 10%;
@@ -163,7 +163,7 @@ section {
     font-size: 40px;
     font: 50px;
     font-family: Fantasy;
-    color: #EF4723;
+    color: #f97316;
 }
 
 .form-group {
@@ -193,7 +193,7 @@ section {
 
 .submit-button input {
     padding: 10px 20px;
-    background-color: #EF4723;
+    background-color: #f97316;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -241,7 +241,7 @@ section {
 
     .card a{
         text-decoration: none;
-        color: #EF4723;
+        color: #ffffff;
 
     }
      .card a:hover{

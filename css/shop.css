@@ -19,7 +19,7 @@
  .left , .right {
    display: flex;
    align-items: center;
-   color: #ef4723;
+   color: #f97316;
  }
  .left , .right:hover{
   color: #ef4723;
