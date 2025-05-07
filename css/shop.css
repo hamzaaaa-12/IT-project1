@@ -19,7 +19,7 @@
  .left , .right {
    display: flex;
    align-items: center;
-   color: #4a7eb5;
+   color: #000;
  }
  .left , .right:hover{
   color: #344f82;
@@ -35,9 +35,9 @@
 
  .left .search-icon {
    position: absolute;
-   margin-left: 10px;
-   margin: -10px;
-   color: #4a7eb5;
+   margin-left: 30px;
+   margin: 5px;
+   color: #000;
  }
  .left .search-icon:hover{
   color: #344f82;}
@@ -50,12 +50,14 @@
  .nav-links {
    margin-left: 400px;
    font-size: 14px;
+   font-weight: 600;
  }
  .nav-links a {
    margin-left: 15px;
    text-decoration: none;
-   color: #4a7eb5;
+   color: #000;
    transition: 1.5s ease;
+   font-weight: 900px;
  }
  .nav-links a:hover {
    color: #344f82;
@@ -63,7 +65,7 @@
    transition: 0.5s ease;
  }
  .right .icon {
-   margin-left: 25px;
+   margin-left: 15px;
    font-size: 20px;
    cursor: pointer;
  }
@@ -97,7 +99,7 @@ body {
     margin: 0;
     padding: 30px;
     background-color: #fff;
-
+    background-position: -200px top;
 
   }
 
@@ -111,7 +113,7 @@ body {
   .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 40px;
+    gap: 300px;
   }
 
   .product-card {
@@ -121,8 +123,8 @@ body {
   }
 
   .product-card img {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 8px;
   }
 
@@ -134,7 +136,7 @@ body {
   }
 
   .product-name {
-    font-size: 16px;
+    font-size: 15px;
     margin: 5px 0;
   }
 
@@ -158,18 +160,26 @@ display: flex;
     flex-wrap: wrap;
 }
 .product-card {
-    background-color: #fff;
+   background-color:white;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px;
-    padding: 25px;
+    border-radius: 15px;
+    padding: 20px;
     margin: 15px;
     transition: 0.7s ease;
+}
+.product-card.left-align{
+  margin-left: -50px;
+}
+.product-card.right-align{
+  margin-right: -50px;
 }
 
 .product-card:hover {
     transform: scale(1.1);
 }
+
+
 
  /* ========================================scrollbar css======================== */
 
@@ -212,6 +222,15 @@ logossss
   color:#344f82;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.8em;
-
+  font-size: 40px;
+}
+.background{
+  background-position: 50px top;
+}
+.nikelogo{
+  text-decoration: none;
+  color:#000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
 }
