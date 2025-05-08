@@ -1,0 +1,232 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 30px;
+   border-bottom: 1px solid #ccc;
+   margin: 0;
+ }
+ .left , .right {
+   display: flex;
+   align-items: center;
+   color: #000;
+ }
+ .left , .right:hover{
+  color: #344f82;
+ }
+ .left input {
+   padding: 9px;
+   padding-left: 40px;
+   border: none;
+   border-bottom: 1px solid #000;
+   font-size: 14px;
+   color: #000;
+  }
+
+ .left .search-icon {
+   position: absolute;
+   margin-left: 30px;
+   margin: 5px;
+   color: #000;
+ }
+ .left .search-icon:hover{
+  color: #344f82;}
+ .center {
+   text-align: center;
+ }
+ .center img {
+   height: 40px;
+ }
+ .search-input{
+  margin-left: -8px;
+  width: 250px;
+ }
+ .nav-links {
+   margin-left: 400px;
+   font-size: 14px;
+   font-weight: 600;
+ }
+ .nav-links a {
+   margin-left: 15px;
+   text-decoration: none;
+   color: #000;
+   transition: 1.5s ease;
+   font-weight: 900px;
+ }
+ .nav-links a:hover {
+   color: #344f82;
+   transform: scale(1.2);
+   transition: 0.5s ease;
+ }
+ .right .icon {
+   margin-left: 15px;
+   font-size: 20px;
+   cursor: pointer;
+ }
+ .relative {
+   position: relative;
+ }
+
+ .logo {
+  text-decoration: none;
+  color: #6761da;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-30%);
+  
+  transition: 1.5s ease;
+
+}
+.logo:hover {
+  color: #164397;
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+
+ /* ============================the body css==================== */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #fff;
+    background-position: -200px top;
+
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 300px;
+  }
+
+  .product-card {
+    text-align: center;
+    width: 200px;
+    height: 300x;
+  }
+
+  .product-card img {
+    width: 175px;
+    height: 175x;
+    border-radius: 8px;
+  }
+
+  .category {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #888;
+    margin-top: 10px;
+  }
+
+  .product-name {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+
+  .price {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+/* ==========================animations===================== */
+.products-nike{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.products-grid-nike {
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+    margin: 40px auto;
+    padding: 40px;
+}
+.product-card-nike {
+   background-color:white;
+   text-align: center;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 16px;
+    padding: 30px;
+    transition: 0.7s ease;
+}
+.product-card:hover {
+    transform: scale(1.1);
+}
+
+
+
+ /* ========================================scrollbar css======================== */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #bfd0e3;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #4a7eb5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #344f82;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #bfd0e3;
+  background-size: 10px 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-button:end:increment {
+  background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDQwNC4zMDggNDA0LjMwOSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDA0LjMwOCA0MDQuMzA5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPHBhdGggZD0iTTAsMTAxLjA4aDQwNC4zMDhMMjAyLjE1MSwzMDMuMjI5TDAsMTAxLjA4eiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=);
+}
+
+::-webkit-scrollbar-button:start:decrement {
+  background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE2cHgiIGhlaWdodD0iMTZweCIgdmlld0JveD0iMCAwIDI1NSAyNTUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI1NSAyNTU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0iYXJyb3ctZHJvcC11cCI+CgkJPHBvbHlnb24gcG9pbnRzPSIwLDE5MS4yNSAxMjcuNSw2My43NSAyNTUsMTkxLjI1ICAgIiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
+
+  /*============
+logossss
+============*/
+.logobrands {
+  text-decoration: none;
+  color:#344f82;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+.background{
+  background-position: 50px top;
+}
+.nikelogo{
+  text-decoration: none;
+  color:#000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+.nikeicon{
+  margin-left: -90px;
+}
