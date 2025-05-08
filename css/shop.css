@@ -47,9 +47,6 @@
  .center img {
    height: 40px;
  }
- .search-input{
-  margin-left: -8px;
- }
  .nav-links {
    margin-left: 400px;
    font-size: 14px;
@@ -115,23 +112,20 @@ body {
 
   .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 300px;
   }
 
   .product-card {
     text-align: center;
-    width: 100px;
-    height: 100x;
-    overflow: auto;
+    width: 200px;
+    height: 300px;
   }
 
   .product-card img {
-    width: 180px;
-    height: 180x;
+    width: 175px;
+    height: 175px;
     border-radius: 8px;
-    object-fit: contain;
-    margin-bottom: 10px;
   }
 
   .category {
@@ -158,22 +152,19 @@ body {
   flex-wrap: wrap;
 }
 .products-grid {
-  flex-direction: column;
-    display: flex;
-    min-height: 400px;
-    justify-content: space-between;
+display: flex;
+    justify-content: center;
     gap: 20px;
     margin: 40px auto;
     max-width: 1200px;
     flex-wrap: wrap;
-    padding: 20px;
 }
 .product-card {
    background-color:white;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 15px;
-    padding: 30px;
+    padding: 20px;
     margin: 15px;
     transition: 0.7s ease;
 }
@@ -186,7 +177,82 @@ body {
 
 .product-card:hover {
     transform: scale(1.1);
+  }
+/* prada  */
+  .products-PRADA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.product-grid-PRADA {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 600px;
+}
+
+.product-card-PRADA {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+}
+
+.product-card-PRADA img {
+  width: 175px;
+  height: 175px;
+  border-radius: 8px;
+}
+
+.category {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.product-name-PRADA {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: bold;
+  margin: 5px 0;
+}
+/* ==========================animations===================== */
+.products-PRADA{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.products-grid-PRADA {
+display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+.product-card-PRADA {
+ background-color:black;
+  width: 21.25em;
+  box-shadow: 0 5px 25px white(1 1 1 / 15%);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.product-card-PRADA{
+margin-left: -50px;
+}
+.product-card-PRADA.right-align{
+margin-right: -50px;
+}
+
+.product-card-PRADA:hover {
+  transform: scale(1.1);
 
 
 
@@ -242,7 +308,4 @@ logossss
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
-}
-.nikeicon{
-  margin-left: -20px;
 }
