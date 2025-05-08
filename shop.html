@@ -5,27 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KAIRØ KOLLECTIVE</title>
-  <link rel="icon" type="image/png" href="css/images/iconLogo2edited.png" sizes="16x16">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link rel="stylesheet" href="css/shop.css">
-  <script defer src="./js/script.js"></script>
+  <link rel="icon" type ="image/png" href="css/images/iconLogo2edited.png" sizes="16x16">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="css/shop.css">
 </head>
 <body>
+ 
+  <header>
+    
+    <header class="header">
+      <div class="left relative">
+      <i class="fas fa-search search-icon"></i>
+      <input type="text" placeholder="What are you looking for?" class="search-input" onkeyup="search()" />
+    </div>
+        <a href="Nike.html" class="logo">NIKE. </a>
+        <a href="adidas.html" class="logo">ADIDAS. </a>
+        <a href="lacoste.html" class="logo">LACOSTE.</a>
+        <a href="american.html" class="logo">AMERICAN EAGLE.</a>
+      <!-- <div class="center">
+        <div class="nav-links">
+          <a href="#">Sign Up</a>
+        </div> -->
+        
+      </div>
+      <div class="right">
+        <i class="far fa-heart icon"></i>
+        <!-- <i class="fas fa-shopping-bag icon"></i> -->
+        <a href ="cart.html"class="right">  <i class="fas fa-shopping-cart icon"></i></a>
+        <a href="homePage.html" class="right">  <i class="fas fa-home icon"></i>  </a> 
+      </div>
+    </header>
 
-<header class="header">
-  <div class="left relative">
-    <i class="fas fa-search search-icon"></i>
-    <input type="text" placeholder="What are you looking for?" class="search-input" onkeyup="search()" />
-  </div>
-  <a href="Nike.html" class="logo">NIKE. </a>
-  <a href="adidas.html" class="logo">ADIDAS. </a>
-  <a href="lacoste.html" class="logo">LACOSTE.</a>
-  <a href="american.html" class="logo">AMERICAN EAGLE.</a>
-  <div class="right">
-    <i class="far fa-heart icon"></i>
-    <a href="cart.html" class="right"><i class="fas fa-shopping-cart icon"></i></a>
-    <a href="homePage.html" class="right"><i class="fas fa-home icon"></i></a> 
-  </div>
 </header>
 <section class="product-grid">
 <div class="products"> 
@@ -149,8 +161,7 @@
     </div>
    
 </div>
-
 </section>
-<script src="./js/script.js"></script>
+<script src="javascript/shop.js"></script>
 </body>
 </html>
