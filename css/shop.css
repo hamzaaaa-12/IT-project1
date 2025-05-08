@@ -178,10 +178,10 @@ body {
     transition: 0.7s ease;
 }
 .product-card.left-align{
-  margin-left: -50px;
+  margin-left: 50px;
 }
 .product-card.right-align{
-  margin-right: -50px;
+  margin-right: 50px;
 }
 
 .product-card:hover {
