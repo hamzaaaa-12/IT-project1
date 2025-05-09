@@ -336,3 +336,6 @@ background-color: #bfd0e3;
 .size-chart tbody tr:nth-child(even){
   background-color: #f9f9f9;
 }
+.size-chart td:hover{
+  background-color: #ddd;
+}
