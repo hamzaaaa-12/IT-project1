@@ -20,13 +20,23 @@
         <div class="cart-footer">
             <div class="summary">
                 <p><strong>Estimated Total:</strong> <span id="total-price">LE 0.00</span></p>
-                <small>Taxes, discounts, and shipping calculated at checkout.</small>
+                <small>Taxes, discounts, and shipping will be sent to your email when sending order.</small>
             </div>
-            <button class="checkout">Check Out</button>
+            <button class="checkout" onclick="sendOrder()">Send Order</button>
           </div>
         <a href="shop.html" class="continue">Continue Shopping</a>
     </div>
-
+    <script>
+    function sendOrder() {
+        const cart = JSON.parse(localStorage.getItem("cart")) || [];
+        if (cart.length === 0) {
+            alert("Your cart is empty. Please add items before sending the order.");
+        } else {
+            alert("Thank you for your order! We will send the details to your email shortly.");
+            localStorage.removeItem("cart");
+            location.reload(); }}
+</script>
+    
     <script>
         const cart = JSON.parse(localStorage.getItem("cart")) || [];
         const cartItemsContainer = document.getElementById("cart-items");
