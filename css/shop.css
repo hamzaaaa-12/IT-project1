@@ -179,6 +179,12 @@ display: flex;
     transform: scale(1.1);
   }
 /* prada  */
+
+  /* .background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
   .products-PRADA {
   display: flex;
   flex-direction: column;
