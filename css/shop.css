@@ -50,7 +50,7 @@
  .nav-links {
    margin-left: 400px;
    font-size: 14px;
-   font-weight: 600;
+   font-weight: 700;
  }
  .nav-links a {
    margin-left: 15px;
@@ -253,6 +253,7 @@ margin-right: -50px;
 
 .product-card-PRADA:hover {
   transform: scale(1.1);
+}
 
 
 
