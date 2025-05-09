@@ -179,6 +179,12 @@ display: flex;
     transform: scale(1.1);
   }
 /* prada  */
+
+  /* .background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
   .products-PRADA {
   display: flex;
   flex-direction: column;
@@ -219,6 +225,78 @@ display: flex;
 .price {
   font-weight: bold;
   margin: 5px 0;
+}
+
+.logobrands1{
+  text-decoration: none;
+  color:  #c9bb97;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+.nav-links1 {
+  margin-left: 400px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.nav-links1 a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #c9bb97;
+  transition: 1.5s ease;
+  font-weight: 900px;
+}
+.nav-links a:hover {
+  /* color:; */
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+.right1 .icon {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.left , .right1 {
+  display: flex;
+  align-items: center;
+  color: #c9bb97;
+}
+.left .input1 {
+  padding: 9px;
+  padding-left: 40px;
+  border: none;
+  /* border-bottom: 1px solid #4a7eb5; */
+  font-size: 14px;
+  background-color: black;
+  color: #c9bb97;
+ }
+
+.left .search-icon1 {
+  position: absolute;
+  margin-left: 30px;
+  margin: 5px;
+  color: #c9bb97;
+}
+/* .left .search-icon1:hover{
+ color : #c9bb97;
+.center {
+  text-align: center;
+} */
+.search-input1 {
+  background-color: rgb(38, 38, 38); 
+  color: #c9bb97; 
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search-input1::placeholder {
+  color: #c9bb97; 
+  opacity: 0.8; 
+}
+.relative {
+  position: relative;
 }
 /* ==========================animations===================== */
 .products-PRADA{
