@@ -29,6 +29,9 @@ h1{
     cursor: pointer;
     margin-top: 20px;
 }
+.submit-button:hover{
+    background-color: papayawhip;
+}
 #feedback-logo {
     font-size: 40px;
     font: 60px;
