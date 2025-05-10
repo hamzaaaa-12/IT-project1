@@ -96,14 +96,9 @@
       }
     ];
   
-    // Get the product ID from the URL
     const params = new URLSearchParams(window.location.search);
     const productId = params.get("id");
-  
-    // Find the product by ID
     const product = products.find(p => p.id === productId);
-  
-    // Display the product details
     const detailsDiv = document.getElementById("products-prada");
     if (product) {
       detailsDiv.innerHTML = `
@@ -124,7 +119,7 @@
       detailsDiv.innerHTML = "<p>Product not found.</p>";
     }
   
-    // Add to Cart Functionality
+   
     function addToCart() {
       const selectedSize = document.getElementById("size-select")?.value || "One Size";
       const cartItem = {

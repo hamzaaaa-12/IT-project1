@@ -13,10 +13,10 @@
     scroll-behavior: smooth;
 }
 
-/* Fix for the header overlapping the content */
+S
 body {
   margin: 0;
-  padding-top: 80px; /* Adjust this value based on the height of your header */
+  padding-top: 80px; 
 }
 
 header {
@@ -24,13 +24,13 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: white; /* Optional: Set a background color */
-  z-index: 1000; /* Ensure the header stays above other elements */
+  background-color: white; 
+  z-index: 1000; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .search {
@@ -153,22 +153,6 @@ transition: all 0.3s ease;
     gap: 15px;
     margin: 20px 0;
   }
-  
-  .wishlist-icon img {
-    width: 28px;
-    height: 28px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .wishlist-icon img:hover {
-    transform: scale(1.2);
-  }
-  
-  .wishlist-icon img.liked {
-    filter: brightness(0) saturate(100%) invert(13%) sepia(98%) saturate(7497%) hue-rotate(357deg) brightness(101%) contrast(120%);
-  }
-  
   
   .info-sections h3 {
     margin-top: 30px;
