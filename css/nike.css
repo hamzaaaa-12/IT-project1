@@ -174,7 +174,7 @@ display: flex;
 .product-card-nike.right-align{
   margin-right: 50px;
 }
-.product-card:hover {
+.product-card-nike:hover {
   transform: scale(1.1);
 }
 
