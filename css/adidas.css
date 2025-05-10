@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(./css/images/Adidas/background.jpg);
+    background-image:url(./images/Adidas/background.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -163,8 +163,8 @@ section {
     z-index: 3;
 }
 .shirt:hover {
-    transform: scale(1.05); /* تكبير الحجم */
-    box-shadow: 0 10px 20px rgba(2, 2, 2, 0.2); /* ظل قوي عند الهوفر */
-    border: 2px solid #222; /* border أخضر لزيادة الجاذبية */
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(2, 2, 2, 0.2);
+    border: 2px solid #222;
     background-color: #fff; 
- }
+}
