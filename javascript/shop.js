@@ -15,7 +15,7 @@ function search(){
 }
 
 
-//------------------------------محدش يعدل حاجة تحت خصوصا مهني------------------------------
+//------------------------------محدش يعدل حاجة تحت -------------------------------------
 
 function handleSignup(e) {
     e.preventDefault();
@@ -65,3 +65,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 //--------------------------خلصت signin and signup pages----------------------------------
+
+document.addEventListener("DOMContentLoaded", () => {
+    const productCards = document.querySelectorAll(".product-card");
+    productCards.forEach((card) => {
+        const tooltip = card.querySelector(".tooltip");
+        card.addEventListener("mouseover", () => {
+            tooltip.textContent = "Viewing only";
+            tooltip.style.position = "absolute";
+            tooltip.style.display = "block";});
+        card.addEventListener("mouseout", () => {
+            tooltip.style.display = "none";
+        });
+    });
+});
