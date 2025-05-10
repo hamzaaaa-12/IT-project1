@@ -15,7 +15,7 @@
         <a id="feedback-logo" href="homePage.html" class="logo">KairØ Kollective .
         </a>
     <div>
-        <form>
+        <form id="feedbackForm">
          <div class="main-input">
             <div>
                 <label class="input-name">Name </label>
@@ -35,5 +35,15 @@
          </div>  
         </form>
     </div>
+    <script>
+        document.getElementById("feedbackForm").addEventListener("submit", function(event) {
+          event.preventDefault(); 
+    
+          const name = document.getElementById("feed-name").value;
+          const email = document.getElementById("feed-email").value;
+          const comments = document.getElementById("comment-input").value;
+          alert("Thank you, " + name + "! Your feedback was: " + comments);
+        });
+      </script>
 </body>
 </html>
