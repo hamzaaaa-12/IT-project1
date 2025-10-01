@@ -1,6 +1,5 @@
 function search(){
     let searchBar = document.querySelector('.search-input') .value.toUpperCase();
-    let productlist = document.querySelectorAll('.products');
     let product=document.querySelectorAll('.product-card');
     let getname = document.getElementsByTagName('h3');
     for (let i = 0; i < getname.length; i++){
